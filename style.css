@@ -1,7 +1,8 @@
 body{
-    background-color: #283618;
-    color: #fefae0;
+    background-color: #002E2C;
+    color: #EFF1C5;
     font-family: "Rubik", sans-serif;
+    resize: none;
 
 }
 
@@ -12,19 +13,55 @@ body{
   font-style: normal;
   text-align: center;
   font-size: 3em;
+  text-decoration: underline;
+
+}
+
+
+
+.index-links{
+
+    padding: 10px;
+    background-color: #A2A77F; 
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    box-shadow: 5px 5px;
+    color: #E3E7AF;
+
 }
 
 .hyperlink{
     color: #fefae0;
     font-family: "Rubik", sans-serif;
     font-size: 25px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    display: block;
+
+
+
+}
+
+
+.div1{
+    border: 2px solid black;
+    display: block;
+    margin-top: 10px;
+    background-color: #A2A77F;
 }
 
 .img{
     width: auto;
     height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .heading {
     font-weight: 400;
+    text-decoration: underline;
 }
